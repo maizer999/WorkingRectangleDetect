@@ -19,6 +19,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:src="@drawable/test1" />
+        android:src="@drawable/test6" />
 
 </LinearLayout>

@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         Mat img = null;
 
         try {
-            img = Utils.loadResource(getApplicationContext(), R.drawable.test1);
+            img = Utils.loadResource(getApplicationContext(), R.drawable.test6);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -68,12 +68,15 @@ public class MainActivity extends AppCompatActivity {
         findSquares(img_result ,squares);
 
 
-        Log.d("maizer",""+squares);
-        Log.d("maizer",""+squares.size());
 
         Imgproc.polylines(img_result, squares, true, new Scalar(255, 255, 0), 10);
 
+        for(int i =0 ; i< squares.size() ; i++) {
 
+        for( Point p: squares.get(i).toList() ){
+
+Log.d("X = "+p.x," y = "+p.y);
+        }}
 
 //        Imgproc.Canny(img, img_result, 80, 90);
 //        Bitmap img_bitmap = Bitmap.createBitmap(img_result.cols(), img_result.rows(),Bitmap.Config.ARGB_8888);
@@ -90,6 +93,9 @@ public class MainActivity extends AppCompatActivity {
 
 
     List<MatOfPoint> squares = new ArrayList<MatOfPoint>();
+
+
+
 
     int thresh = 50, N = 11;
 

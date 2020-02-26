@@ -1,2 +1,4 @@
 # ninja log v5
 0	24	0	clean	f3e1e390e793b8ef
+1	1459	1582724767	CMakeFiles/native-lib.dir/native-lib.cpp.o	945ff1b6afb3274a
+1460	1804	1582724767	/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	8769cfda9ff94e64
