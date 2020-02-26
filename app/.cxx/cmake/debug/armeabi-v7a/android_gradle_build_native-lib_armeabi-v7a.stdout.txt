@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/armeabi-v7a'
+ninja: no work to do.

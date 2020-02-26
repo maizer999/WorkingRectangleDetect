@@ -1,0 +1,177 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/cfd44a4238ec417bfab2556e97802e98/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/6661e321f02af304a976d1b047c03264/constraint-layout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [:opencv] /Users/mohammadabumaizer/Documents/OpenCVAndroid/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/46281c900cf6cf988c35591ed4547f7c/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/82b8aefcc0d11695b52b68f759c1e845/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/7a50d1b924055ff39e68f333016f57ad/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/62a9be38c5aee7f0b15ef561a76dc0e5/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/171d42d4cadfbb6b8af592655861fe7c/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/0ec822c1316130d0c5aa4ba03186b617/loader-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/09053fd8aef54425395510a68445b58d/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/6875688f219711e75e555aa41ebf6548/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/41fa80bab8720b1ef895a9169e54eba8/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/1024f06ab723f7f405ea228ad70f9b81/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/ef4722a7cfabdc85d86dc7c20e5cb65e/customview-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/aa1dd4b9610994642c0cdf8059ba09a8/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/25f55c029b12c171f08e6047f17fd656/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/5b7ab468d23189abfa5a059e1190f376/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/a24ed2827efb5015d19506f8b0245b90/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/b819feb589344fd4bab2c2ed7865e1b1/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/b4db1839c808a11d466d8cf3e46fc0b2/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/264b2a2a9fe1ee65e7ac6b2a30e9defc/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/727c91ac709d21875fd0b9e89c7981c6/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/cf9377ff9c5809ee17707409b9bf8c31/print-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/f8f86c000b1ca4d1c5e0d9f9250fcf1a/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/f315af924ed277f458402308e1354ed5/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/7afeb04b4bc4437dc8adbd071f65a4a6/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/7e766869d08b8aad62d6d88f3bc4c37d/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/10331df8f0fc9bcc08ceaea375db417e/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:3:11-60
+		INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:5:5-64
+	android:name
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:5:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:6:5-59
+	android:name
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:6:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:7:5-69
+	android:name
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:7:19-67
+uses-feature#android.hardware.camera.front
+ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:8:19-63
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:9:19-73
+application
+ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:11:5-25:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/6661e321f02af304a976d1b047c03264/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/6661e321f02af304a976d1b047c03264/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/5b7ab468d23189abfa5a059e1190f376/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/5b7ab468d23189abfa5a059e1190f376/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/a24ed2827efb5015d19506f8b0245b90/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/a24ed2827efb5015d19506f8b0245b90/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/5b7ab468d23189abfa5a059e1190f376/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:16:13-39
+	android:label
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:14:13-45
+	android:roundIcon
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:15:13-58
+	android:icon
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:13:13-47
+	android:allowBackup
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:12:13-39
+	android:theme
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:17:13-44
+activity#com.example.nativeopencvandroidtemplate.MainActivity
+ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:18:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:20:17-68
+	android:name
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:22:17-76
+	android:name
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/cfd44a4238ec417bfab2556e97802e98/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/cfd44a4238ec417bfab2556e97802e98/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/6661e321f02af304a976d1b047c03264/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/6661e321f02af304a976d1b047c03264/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [:opencv] /Users/mohammadabumaizer/Documents/OpenCVAndroid/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:opencv] /Users/mohammadabumaizer/Documents/OpenCVAndroid/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/46281c900cf6cf988c35591ed4547f7c/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/46281c900cf6cf988c35591ed4547f7c/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/82b8aefcc0d11695b52b68f759c1e845/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/82b8aefcc0d11695b52b68f759c1e845/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/7a50d1b924055ff39e68f333016f57ad/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/7a50d1b924055ff39e68f333016f57ad/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/62a9be38c5aee7f0b15ef561a76dc0e5/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/62a9be38c5aee7f0b15ef561a76dc0e5/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/171d42d4cadfbb6b8af592655861fe7c/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/171d42d4cadfbb6b8af592655861fe7c/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/0ec822c1316130d0c5aa4ba03186b617/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/0ec822c1316130d0c5aa4ba03186b617/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/09053fd8aef54425395510a68445b58d/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/09053fd8aef54425395510a68445b58d/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/6875688f219711e75e555aa41ebf6548/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/6875688f219711e75e555aa41ebf6548/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/41fa80bab8720b1ef895a9169e54eba8/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/41fa80bab8720b1ef895a9169e54eba8/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/1024f06ab723f7f405ea228ad70f9b81/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/1024f06ab723f7f405ea228ad70f9b81/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/ef4722a7cfabdc85d86dc7c20e5cb65e/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/ef4722a7cfabdc85d86dc7c20e5cb65e/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/aa1dd4b9610994642c0cdf8059ba09a8/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/aa1dd4b9610994642c0cdf8059ba09a8/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/25f55c029b12c171f08e6047f17fd656/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/25f55c029b12c171f08e6047f17fd656/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/5b7ab468d23189abfa5a059e1190f376/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/5b7ab468d23189abfa5a059e1190f376/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/a24ed2827efb5015d19506f8b0245b90/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/a24ed2827efb5015d19506f8b0245b90/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/b819feb589344fd4bab2c2ed7865e1b1/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/b819feb589344fd4bab2c2ed7865e1b1/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/b4db1839c808a11d466d8cf3e46fc0b2/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/b4db1839c808a11d466d8cf3e46fc0b2/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/264b2a2a9fe1ee65e7ac6b2a30e9defc/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/264b2a2a9fe1ee65e7ac6b2a30e9defc/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/727c91ac709d21875fd0b9e89c7981c6/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/727c91ac709d21875fd0b9e89c7981c6/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/cf9377ff9c5809ee17707409b9bf8c31/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/cf9377ff9c5809ee17707409b9bf8c31/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/f8f86c000b1ca4d1c5e0d9f9250fcf1a/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/f8f86c000b1ca4d1c5e0d9f9250fcf1a/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/f315af924ed277f458402308e1354ed5/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/f315af924ed277f458402308e1354ed5/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/7afeb04b4bc4437dc8adbd071f65a4a6/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/7afeb04b4bc4437dc8adbd071f65a4a6/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/7e766869d08b8aad62d6d88f3bc4c37d/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/7e766869d08b8aad62d6d88f3bc4c37d/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/10331df8f0fc9bcc08ceaea375db417e/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/10331df8f0fc9bcc08ceaea375db417e/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml

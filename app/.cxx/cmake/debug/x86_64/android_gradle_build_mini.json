@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.6113669/build/cmake/platforms.cmake",
+    "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/mohammadabumaizer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/Users/mohammadabumaizer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-x86_64": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/mohammadabumaizer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/x86_64\" native-lib",
+      "abi": "x86_64",
+      "output": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so"
+    }
+  }
+}

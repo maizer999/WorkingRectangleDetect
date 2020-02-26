@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.nativeopencvandroidtemplate"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:5:5-64
+11-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:5:22-62
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:6:5-59
+13-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:6:19-57
+14    <uses-feature android:name="android.hardware.camera.autofocus" />
+14-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:7:5-69
+14-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:7:19-67
+15    <uses-feature android:name="android.hardware.camera.front" />
+15-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:8:5-65
+15-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:8:19-63
+16    <uses-feature android:name="android.hardware.camera.front.autofocus" />
+16-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:9:5-75
+16-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:9:19-73
+17
+18    <application
+18-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:11:5-25:19
+19        android:allowBackup="true"
+19-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:12:13-39
+20        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+20-->[com.android.support:support-compat:28.0.0] /Users/mohammadabumaizer/.gradle/caches/transforms-2/files-2.1/5b7ab468d23189abfa5a059e1190f376/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:13:13-47
+23        android:label="@string/app_name"
+23-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:14:13-45
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:15:13-58
+25        android:supportsRtl="true"
+25-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:16:13-39
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:17:13-44
+28        <activity android:name="com.example.nativeopencvandroidtemplate.MainActivity" >
+28-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:18:9-24:20
+28-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:18:19-47
+29            <intent-filter>
+29-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:20:17-68
+30-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:22:17-76
+32-->/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>

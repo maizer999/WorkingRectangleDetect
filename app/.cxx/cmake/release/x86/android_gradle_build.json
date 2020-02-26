@@ -1,0 +1,42 @@
+{
+  "stringTable": {
+    "0": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/release/x86",
+    "1": "--target=i686-none-linux-android28 --gcc-toolchain=/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I/Users/mohammadabumaizer/Documents/OpenCVAndroid/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.6113669/build/cmake/platforms.cmake",
+    "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/mohammadabumaizer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/release/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/mohammadabumaizer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/release/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-x86": {
+      "buildCommand": "/Users/mohammadabumaizer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/release/x86\" native-lib",
+      "buildType": "release",
+      "toolchain": "763728314",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so"
+    }
+  },
+  "toolchains": {
+    "763728314": {
+      "cppCompilerExecutable": "/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

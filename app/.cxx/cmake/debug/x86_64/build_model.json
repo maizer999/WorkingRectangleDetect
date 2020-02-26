@@ -1,0 +1,74 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template",
+      "sdkFolder": "/Users/mohammadabumaizer/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app",
+      "makeFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/.cxx",
+      "cxxFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx",
+      "ndkFolder": "/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.6113669",
+      "ndkVersion": "21.0.6113669",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DOpenCV_DIR\u003d/Users/mohammadabumaizer/Documents/OpenCVAndroid/sdk/native"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-frtti -fexceptions"
+    ],
+    "variantName": "debug",
+    "soFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86_64",
+  "abiPlatformVersion": 28,
+  "cxxBuildFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/x86_64",
+  "jsonFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/x86_64/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cxx/debug/x86_64",
+  "objFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/build/intermediates/cmake/debug/obj/x86_64",
+  "buildCommandFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/x86_64/build_command.txt",
+  "buildOutputFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/x86_64/build_output.txt",
+  "modelOutputFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/x86_64/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cxx/debug/x86_64/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cxx/debug/x86_64/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cxx/debug/x86_64/build_generation_state.json",
+    "cacheKeyFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cxx/debug/x86_64/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cxx/debug/x86_64/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cxx/debug/x86_64/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cxx/debug/x86_64/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/x86_64/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/x86_64/compile_commands.json"
+}
