@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         Mat img = null;
 
         try {
-            img = Utils.loadResource(getApplicationContext(), R.drawable.test1);
+            img = Utils.loadResource(getApplicationContext(), R.drawable.test5);
         } catch (IOException e) {
             e.printStackTrace();
         }
