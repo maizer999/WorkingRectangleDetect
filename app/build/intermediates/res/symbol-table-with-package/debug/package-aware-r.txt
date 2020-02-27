@@ -516,6 +516,7 @@ dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -674,6 +675,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_save
 id action_text
 id actions
 id activity_chooser_view_content
@@ -688,6 +690,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btn_gallery
 id buttonPanel
 id center
 id center_horizontal
@@ -702,6 +705,7 @@ id content
 id contentPanel
 id custom
 id customPanel
+id cv_img
 id decor_content_parent
 id default_activity_button
 id dimensions
@@ -717,6 +721,7 @@ id fill_vertical
 id forever
 id front
 id gone
+id gridview
 id group_divider
 id groups
 id home
@@ -725,7 +730,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id img
 id info
 id invisible
 id italic
@@ -836,7 +840,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_cv
+layout activity_gallery
 layout activity_main
+layout layout_crop
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -847,6 +854,8 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout tool_bar
+menu menu_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
@@ -889,14 +898,19 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string open_gallery
 string search_menu_title
 string status_bar_notification_info_overflow
+string title_activity_list
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
 style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style AppTheme
+style AppTheme_AppBarOverlay
+style AppTheme_NoActionBar
+style AppTheme_PopupOverlay
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

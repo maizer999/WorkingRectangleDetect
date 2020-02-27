@@ -18,9 +18,9 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int any = 0x7f07001d;
-        public static final int back = 0x7f07001f;
-        public static final int front = 0x7f07003f;
+        public static final int any = 0x7f07001e;
+        public static final int back = 0x7f070020;
+        public static final int front = 0x7f070042;
     }
     public static final class styleable {
         private styleable() {}

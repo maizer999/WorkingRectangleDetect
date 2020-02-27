@@ -5,6 +5,7 @@
       "sdkFolder": "/Users/mohammadabumaizer/Library/Android/sdk",
       "isNativeCompilerSettingsCacheEnabled": false,
       "isBuildOnlyTargetAbiEnabled": true,
+      "ideBuildTargetAbi": "armeabi-v7a,armeabi",
       "splitsAbiFilterSet": [],
       "intermediatesFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/build/intermediates",
       "gradleModulePathName": ":app",
@@ -43,15 +44,12 @@
     "gradleBuildOutputFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cxx/debug",
     "isDebuggableEnabled": true,
     "validAbiList": [
-      "ARMEABI_V7A",
-      "ARM64_V8A",
-      "X86",
-      "X86_64"
+      "ARMEABI_V7A"
     ],
     "buildTargetSet": []
   },
   "abi": "ARMEABI_V7A",
-  "abiPlatformVersion": 28,
+  "abiPlatformVersion": 24,
   "cxxBuildFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/armeabi-v7a",
   "jsonFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json",
   "gradleBuildOutputFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cxx/debug/armeabi-v7a",

@@ -51,7 +51,7 @@
     "buildTargetSet": []
   },
   "abi": "ARM64_V8A",
-  "abiPlatformVersion": 28,
+  "abiPlatformVersion": 24,
   "cxxBuildFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/arm64-v8a",
   "jsonFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json",
   "gradleBuildOutputFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cxx/debug/arm64-v8a",

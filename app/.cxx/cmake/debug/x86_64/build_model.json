@@ -51,7 +51,7 @@
     "buildTargetSet": []
   },
   "abi": "X86_64",
-  "abiPlatformVersion": 28,
+  "abiPlatformVersion": 24,
   "cxxBuildFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/x86_64",
   "jsonFile": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cmake/debug/x86_64/android_gradle_build.json",
   "gradleBuildOutputFolder": "/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/.cxx/cxx/debug/x86_64",

@@ -21,7 +21,7 @@ ANDROID_ABI:UNINITIALIZED=armeabi-v7a
 ANDROID_NDK:UNINITIALIZED=/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.6113669
 
 //No help, variable specified on the command line.
-ANDROID_PLATFORM:UNINITIALIZED=android-28
+ANDROID_PLATFORM:UNINITIALIZED=android-24
 
 //No help, variable specified on the command line.
 CMAKE_ANDROID_ARCH_ABI:UNINITIALIZED=armeabi-v7a
@@ -199,7 +199,7 @@ CMAKE_STRIP:FILEPATH=/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.61136
 CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
 
 //No help, variable specified on the command line.
-CMAKE_SYSTEM_VERSION:UNINITIALIZED=28
+CMAKE_SYSTEM_VERSION:UNINITIALIZED=24
 
 //The CMake toolchain file
 CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake
@@ -220,10 +220,10 @@ Project_BINARY_DIR:STATIC=/Users/mohammadabumaizer/Documents/native-opencv-andro
 Project_SOURCE_DIR:STATIC=/Users/mohammadabumaizer/Documents/native-opencv-android-template/app/src/main/cpp
 
 //Path to a library.
-log-lib:FILEPATH=/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/liblog.so
+log-lib:FILEPATH=/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/liblog.so
 
 //Dependencies for the target
-native-lib_LIB_DEPENDS:STATIC=general;lib_opencv;general;/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/28/liblog.so;
+native-lib_LIB_DEPENDS:STATIC=general;lib_opencv;general;/Users/mohammadabumaizer/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/liblog.so;
 
 
 ########################

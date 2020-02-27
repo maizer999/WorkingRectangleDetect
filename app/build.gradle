@@ -9,7 +9,7 @@ android {
     buildToolsVersion "29.0.1"
     defaultConfig {
         applicationId "com.example.nativeopencvandroidtemplate"
-        minSdkVersion 28
+        minSdkVersion 25
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
