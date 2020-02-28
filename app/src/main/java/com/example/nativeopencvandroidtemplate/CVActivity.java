@@ -186,6 +186,8 @@ public class CVActivity extends AppCompatActivity {
 
         findSquares(img_result, squares);
 
+
+
         /*
         Rect roi = new Rect(10, 150, 200, 100);
         Mat cropped = new Mat(img_result, roi);
@@ -207,6 +209,10 @@ public class CVActivity extends AppCompatActivity {
 //                Bitmap.createBitmap(cropped.cols(), cropped.rows(), Bitmap.Config.ARGB_8888);
 //        Utils.matToBitmap(cropped, bitmap, true);
 
+
+
+        Imgproc.polylines(img_result, squares, true, new Scalar(0, 255, 0, 255), 10);
+
         Toast.makeText(this, "Total rectangles: " + squares.size(), Toast.LENGTH_SHORT).show();
     }
 
@@ -217,7 +223,14 @@ public class CVActivity extends AppCompatActivity {
 
         Mat img_result = img.clone();
 
-        Imgproc.polylines(img_result, selectedSquares, true, new Scalar(255, 0, 0, 255), 10);
+
+
+
+        Imgproc.polylines(img_result, selectedSquares, true, new Scalar(0, 255, 0, 255), 10);
+//        Imgproc.ellipse(img_result, 0, selectedSquares, 0, 0, 360, 1, 1, 1, 0);
+
+
+
 
         final Bitmap bitmap =
                 Bitmap.createBitmap(img_result.cols(), img_result.rows(), Bitmap.Config.ARGB_8888);
