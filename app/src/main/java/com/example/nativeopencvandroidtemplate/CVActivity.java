@@ -184,34 +184,10 @@ public class CVActivity extends AppCompatActivity {
 
         Mat img_result = img.clone();
 
+
+
         findSquares(img_result, squares);
 
-
-
-        /*
-        Rect roi = new Rect(10, 150, 200, 100);
-        Mat cropped = new Mat(img_result, roi);
-
-
-        for (int i = 0; i < squares.size(); i++) {
-
-            for (Point p : squares.get(i).toList()) {
-                Log.d("X = " + p.x, " y = " + p.y);
-            }
-        }
-
-        Imgproc.Canny(img, img_result, 80, 90);
-        Bitmap img_bitmap = Bitmap.createBitmap(img_result.cols(), img_result.rows(),Bitmap.Config.ARGB_8888);
-        Utils.matToBitmap(img_result, img_bitmap);
-        */
-
-//        final Bitmap bitmap =
-//                Bitmap.createBitmap(cropped.cols(), cropped.rows(), Bitmap.Config.ARGB_8888);
-//        Utils.matToBitmap(cropped, bitmap, true);
-
-
-
-        Imgproc.polylines(img_result, squares, true, new Scalar(0, 255, 0, 255), 10);
 
         Toast.makeText(this, "Total rectangles: " + squares.size(), Toast.LENGTH_SHORT).show();
     }
@@ -223,11 +199,35 @@ public class CVActivity extends AppCompatActivity {
 
         Mat img_result = img.clone();
 
+//        Imgproc.polylines(img_result, squares, true, new Scalar(255, 127, 80, 255), 10);
+//        Imgproc.polylines(img_result, selectedSquares, true, new Scalar(255, 127, 80, 255), 10);
+
+
+        for ( int contourIdx=0; contourIdx < selectedSquares.size(); contourIdx++ )
+        {
+            // Minimum size allowed for consideration
+            MatOfPoint2f approxCurve = new MatOfPoint2f();
+            MatOfPoint2f contour2f = new MatOfPoint2f( selectedSquares.get(contourIdx).toArray() );
+            //Processing on mMOP2f1 which is in type MatOfPoint2f
+            double approxDistance = Imgproc.arcLength(contour2f, true)*0.02;
+            Imgproc.approxPolyDP(contour2f, approxCurve, approxDistance, true);
+
+            //Convert back to MatOfPoint
+            MatOfPoint points = new MatOfPoint( approxCurve.toArray() );
+
+            // Get bounding rect of contour
+            Rect rect = Imgproc.boundingRect(points);
+
+            Imgproc.rectangle(img_result, new Point(rect.x, rect.y), new Point(rect.x + rect.width, rect.y + rect.height), new Scalar(255, 127, 80, 255), 3);
 
 
 
-        Imgproc.polylines(img_result, selectedSquares, true, new Scalar(0, 255, 0, 255), 10);
-//        Imgproc.ellipse(img_result, 0, selectedSquares, 0, 0, 360, 1, 1, 1, 0);
+
+        }
+
+
+
+
 
 
 
@@ -257,10 +257,16 @@ public class CVActivity extends AppCompatActivity {
         squares.clear();
 
         Mat smallerImg = new Mat(new Size(image.width() / 2, image.height() / 2), image.type());
+        Imgproc.cvtColor(image, image, Imgproc.COLOR_RGB2GRAY);
+        Imgproc.cvtColor(image, image, Imgproc.COLOR_GRAY2RGB, 4);
 
         Mat gray = new Mat(image.size(), image.type());
 
-        Mat gray0 = new Mat(image.size(), CvType.CV_8U);
+        Mat gray0 = new Mat(image.size(), CvType.CV_8UC3);
+
+
+
+
 
         // down-scale and upscale the image to filter out the noise
         Imgproc.pyrDown(image, smallerImg, smallerImg.size());
@@ -301,9 +307,15 @@ public class CVActivity extends AppCompatActivity {
                     // area may be positive or negative - in accordance with the
                     // contour orientation
 
-                    if (approx.toArray().length == 4 &&
-                            Math.abs(Imgproc.contourArea(approx)) > 1000 && Math.abs(Imgproc.contourArea(approx)) < 100000 &&
-                            Imgproc.isContourConvex(approx)) {
+            Log.d("maizer","            "+Math.abs(Imgproc.contourArea(approx)));
+                    if (
+//                            approx.toArray().length == 4 &&
+                            Math.abs(Imgproc.contourArea(approx)) > 6000 &&
+                            Math.abs(Imgproc.contourArea(approx)) < 140000
+//                                    &&
+//                            Imgproc.isContourConvex(approx)
+                    )
+                    {
 
 
                         double maxCosine = 0;
@@ -317,8 +329,12 @@ public class CVActivity extends AppCompatActivity {
                         // if cosines of all angles are small
                         // (all angles are ~90 degree) then write quandrange
                         // vertices to resultant sequence
-                        if (maxCosine < 0.3)
+//                        squares.add(approx);
+
+                        if (maxCosine < 0.9){
                             squares.add(approx);
+                        }
+
                     }
                 }
             }
